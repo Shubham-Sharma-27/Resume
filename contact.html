@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contcat</title>
+    <!--........ NAVIGATION CSS CODES STARTS FROM HERE....... -->
+    <style>
+        *{
+            margin: 0px;
+            padding: 0%;
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+        html,body{
+           overflow: scroll;
+           
+        }
+         body{
+            height:auto;
+            width: 100%;
+            background-color:white;
+            /* background-image: url(darkblue3.jpg); */
+        }
+        .nav-container{
+            height: auto; 
+            background-color: black;
+            /* background-image: url(lightblue.jpg); */
+            margin-right: -12%;
+            width: 100%;
+           }
+         .logo{
+           float: left;
+           color: white;
+           padding-left: 10px;
+        } 
+        .logo img{
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            /* padding-left: px; */
+        }
+       ul{
+         margin-left: 19%;
+        }
+        a{
+          text-decoration: none;
+        }
+        li{
+            float: left;
+            width: 18%;
+            text-align: center;
+            list-style-type: none;
+            margin-top: 6px;
+            /* margin-left: -3%; */
+            margin-right: -1%;
+            color: white;
+            font-size: 20px;
+        }
+    li:hover{                 /*when we hover mouse over nav link then this css will apply*/
+            color:red;
+            /* background-color: red; */
+            border-bottom-color:red;
+            border-bottom-width: 3px;
+            border-bottom-style: solid;
+           
+    }
+
+/* NAVIGATION BAR MEDIA QUERY */
+@media screen and (max-width:660px) {
+  .nav{
+    margin-top: 3px;
+  }
+  .nav li{
+    font-size:20px;
+    width: 25%;
+  }
+}
+@media screen and (max-width:360px) {
+  .nav{
+    margin-top: 3px;
+  }
+  .nav li{
+    font-size:15px;
+    width: 30%;
+  }
+}
+
+/* ..........NAVBAR MEDIA QUERY ENDS HERE........  */
+/*..........NAVIGATION CODE END HERE............. */
+
+/*.......CONTACT CODE START FROM HERE.......*/
+.contact-container{
+      width: 100%;
+      height: auto;
+}
+.info-data{
+  width: 100%;
+  text-align:left;
+  /* background-color: lightblue; */
+}
+.heading{
+  background-color: lightblue;
+  text-align: left;
+  font-size: 40px;
+}
+.info-data ,p{
+  font-size:1.5rem ;
+}
+/* ..........CONTACT MEDIA QUERY START FROM HERE........  */
+@media screen and (max-width:660px) {
+  .info-data p{
+    font-size: 22px;
+  }
+}
+.heading ,h4{
+  font-size: 22px;
+}
+@media screen and (max-width:360px) {
+  .info-data p{
+    font-size: 16px;
+  }
+.heading ,h4{
+  font-size: 16px;
+}
+}
+/* ..........CONTACT MEDIA QUERY ENDS HERE........  */
+/*.......CONTACT CODE END HERE.......*/
+</style>
+
+
+
+</head>
+<body>
+    <div class="nav-container">
+        <div class="logo"><img src="my_casual_pic.jpg" alt=""></div>
+            <div class="nav">
+                <ul>
+                <a href="index.html"><li>Home</li></a>
+                <a href="about.html"><li>About</li></a>
+                <a href="contact.html"><li>Contact </li></a>
+                </ul>
+            </div>
+    </div>
+
+
+    <!-- .......CONTACT CODE START FROM HERE....... -->
+    <div class="contact-container">
+      <h1 class="heading">Contact</h1>
+      <div class="info-data">
+      <p>Thankyou for visiting my portfolio website . I'm always open to new opportunities. if you have any questions or would like to discuss opportunities,please feel free to reach out . I am open to internships,entry-level positions,and projects that allow me to learn and grow . you can contact me through the following channels </p><br>
+      <h4>email-contact :</h4>
+      <p> [shubham2703sharma@gmail.com]</p>
+      <h4 >linkedin-contact :</h4>
+      <p>[linkedin.com/in/shubham-sharma]</p>
+    </div>
+  </div>
+  <!-- .......CONTACT CODE END HERE....... -->
+</body>
+</html>
