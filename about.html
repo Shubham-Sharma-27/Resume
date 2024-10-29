@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <!--........ NAVIGATION CSS CODES STARTS FROM HERE....... -->
+    <style>
+        *{
+            margin: 0px;
+            padding: 0%;
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+        html,body{
+           overflow: scroll;
+           
+        }
+         body{
+            height:auto;
+            width: 100%;
+            background-color:white;
+            /* background-image: url(darkblue3.jpg); */
+        }
+        .nav-container{
+            height: auto; 
+            background-color: black;
+            /* background-image: url(lightblue.jpg); */
+            margin-right: -12%;
+            width: 100%;
+           }
+         .logo{
+           float: left;
+           color: white;
+           padding-left: 10px;
+        } 
+        .logo img{
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            /* padding-left: px; */
+        }
+       ul{
+         margin-left: 19%;
+        }
+        a{
+          text-decoration: none;
+        }
+        li{
+            float: left;
+            width: 18%;
+            text-align: center;
+            list-style-type: none;
+            margin-top: 6px;
+            /* margin-left: -3%; */
+            margin-right: -1%;
+            color: white;
+            font-size: 20px;
+        }
+    li:hover{                 /*when we hover mouse over nav link then this css will apply*/
+            color:red;
+            /* background-color: red; */
+            border-bottom-color:red;
+            border-bottom-width: 3px;
+            border-bottom-style: solid;
+           
+    }
+
+/* NAVIGATION BAR MEDIA QUERY */
+@media screen and (max-width:660px) {
+  .nav{
+    margin-top: 3px;
+  }
+  .nav li{
+    font-size:20px;
+    width: 25%;
+  }
+}
+@media screen and (max-width:360px) {
+  .nav{
+    margin-top: 3px;
+  }
+  .nav li{
+    font-size:15px;
+    width: 30%;
+  }
+}
+/* ..........NAVBAR MEDIA QUERY ENDS HERE........  */
+/*..........NAVIGATION CODE END HERE............. */
+
+/*.......ABOUT CODE START FROM HERE.......*/
+.about-container{
+      width: 100%;
+      height: auto;
+}
+
+.info-data{
+  width: 100%;
+  text-align:left;
+  /* background-color: lightblue; */
+}
+.heading{
+  background-color: lightblue;
+  text-align: left;
+  font-size: 40px;
+  }
+
+.info-data ,p{
+  font-size:1.5rem ;
+}
+
+/* ..........ABOUT MEDIA QUERY START FROM HERE........  */
+@media screen and (max-width:660px) {
+  .info-data p{
+    font-size: 22px;
+  }
+}
+.heading , h1{
+  font-size: 22px;
+}
+@media screen and (max-width:360px) {
+  .info-data p{
+    font-size: 16px;
+  }
+.heading {
+  font-size: 16px;
+}
+}
+/* ..........ABOUT MEDIA QUERY ENDS HERE........  */
+/*.......ABOUT CODE START FROM HERE.......*/
+</style>
+
+
+
+</head>
+<body>
+    <div class="nav-container">
+        <div class="logo"><img src="my_casual_pic.jpg" alt=""></div>
+            <div class="nav">
+                <ul>
+                <a href="index.html"><li>Home</li></a>
+                <a href="about.html"><li>About</li></a>
+                <a href="contact.html"><li>Contact </li></a>
+                </ul>
+            </div>
+    </div>
+
+   <!-- .......ABOUT CODE START FROM HERE....... -->
+    <div class="about-container">
+      <h1 class="heading">About</h1>
+      <div class="info-data">
+      <p>Myself shubham sharma and I'm a current college student with a interest in web development. Driven by curiosity and a commitment to building practical skills,</p>
+      <p> I am eager to bring my acedemic knowledge to real-world projects . Through coursework and self-study.</p>
+      <p>I've Developed foundational skills in Html , CSS , JavaScript , React js , Bootstrap , Java , Python , Php , sql.</p>
+      <p>I am enthusiastic about learning from hands on experience, collaborating with others, and growing in my field. Outside academics, I enjoy photography , cycling , drawing.
+      </p>
+    </div>
+  </div>
+  <!-- .......ABOUT CODE END HERE....... -->
+</body>
+</html>
