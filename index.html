@@ -1,0 +1,481 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio WebSite</title>
+
+    <!--........ NAVIGATION CSS CODES STARTS FROM HERE....... -->
+    <style>
+        *{
+
+           
+            margin: 0px;
+            padding: 0%;
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+        html,body{
+           overflow: scroll;
+           
+        }
+         body{
+            height:auto;
+            width: 100%;
+            background-color:white;
+            /* background-image: url(darkblue3.jpg); */
+        }
+        .nav-container{
+            height: auto; 
+            background-color: black;
+            /* background-image: url(lightblue.jpg); */
+            margin-right: -12%;
+            width: 100%;
+           
+        }
+
+        .logo{
+           float: left;
+           color: white;
+           padding-left: 10px;
+        } 
+        .logo img{
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            /* padding-left: px; */
+        }
+    
+        ul{
+         margin-left: 19%;
+        }
+        a{
+          text-decoration: none;
+        }
+        li{
+            float: left;
+            width: 18%;
+            text-align: center;
+            list-style-type: none;
+            margin-top: 6px;
+            /* margin-left: -3%; */
+            margin-right: -1%;
+            color: white;
+            font-size: 20px;
+        }
+    li:hover{                 /*when we hover mouse over nav link then this css will apply*/
+            color:red;
+            /* background-color: red; */
+            border-bottom-color:red;
+            border-bottom-width: 3px;
+            border-bottom-style: solid;
+           
+    }
+/* NAVIGATION BAR MEDIA QUERY START FROM HERE */
+@media screen and (max-width:660px) {
+  .nav{
+    margin-top: 3px;
+  }
+  .nav li{
+    font-size:20px;
+    width: 25%;
+  }
+}
+@media screen and (max-width:360px) {
+  .nav{
+    margin-top: 3px;
+  }
+  .nav li{
+    font-size:15px;
+    width: 30%;
+  }
+}
+/* ..........NAVBAR MEDIA QUERY ENDS HERE........  */
+/*..........NAVIGATION CODE END HERE............. */
+
+
+
+/* ........TEXT AND IAMGE CODES STARTS FROM HERE .......... */
+
+.container2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mypic2 {
+    width:20%;
+    height:20%;
+    
+}
+
+.intro {
+   max-width:45%;
+   margin-top: 100px;
+   margin-left: 60px;
+}
+ .intro  h2{
+   
+    float: left;
+    text-align: center;
+} 
+/* ........TEXT AND IAMGE CODES ENDS HERE .......... */
+
+/*......... SOCIAL HANDLES CODE STARTS FROM HERE........*/
+.starting {
+    margin-top: 20px;
+    text-align: center;
+}
+.pic {
+    margin-top: 10px;
+ width: 100%; 
+ height:auto;
+ display: flex;
+ justify-content: center;
+ /* justify-content: space-around;          we can also use this */
+}
+.pic img {
+    width: 25%;
+    height: 25%;
+}
+.starting p{
+    font-size: 1.5rem;
+}
+.handles-container{
+    /* background-color: lightblue; */
+    display: flex;
+    justify-content: space-around;
+    /* height: 40%; */
+}
+
+.linkedin h1 , p, .github h1 , p{
+    color: black;
+    font-size: 1.3rem;
+}
+.linkedin  p, .github p{
+    color: black;
+    font-size: 1.2rem;
+}
+/* ..........STARTING MEDIA QUERY START FROM HERE........  */
+@media screen and (max-width:660px) {
+  .name{
+    font-size: 25px;
+  }
+}
+.gmail{
+    font-size:10px;
+}
+@media screen and (max-width:360px) {
+  .name {
+    font-size: 25px;
+  }
+  .gmail{
+    font-size:8px;
+}
+}
+/* ..........STARTING MEDIA QUERY ENDS HERE........  */
+/*......... SOCIAL HANDLES CODE ENDS HERE........*/
+
+
+/*.....CAREER OBJECTIVE CODE START FROM HERE..... */
+.career-objective{
+    text-align: left;
+    /* background-color: white; */
+    height:auto;
+}
+.career-objective h1{
+    color: black;
+    font-size: 1.2rem;
+    background-color: lightblue;
+    border: 0.5px solid black;
+    border-radius: 10px;
+
+}
+.career-objective p{
+    font-size: 1.2rem;
+}
+h3{
+    color: black;
+}
+/*.....CAREER OBJECTIVE CODE ENDHERE..... */
+
+
+/*......EDUCATION  CODES START FROM HERE......*/
+.education-container{
+    height: auto;
+}
+.education-container h1{
+    text-align: left;
+    color: black;
+    font-size: 1.2rem;
+    background-color: lightblue;
+    border: 0.5px solid black;
+    border-radius: 10px;
+
+}
+.college h2 ,.school h2 {
+    text-align: left;
+    font-size: 1.2rem;
+}
+.education-container .college pre,.school pre{
+    font-size: 1.2rem;
+}
+
+
+/*......SKILL CODES START FROM HERE......*/
+.skills-container h1{
+    text-align: left;
+    color: black;
+    font-size: 1.2rem;
+    background-color: lightblue;
+    border: 0.5px solid black;
+    border-radius: 10px;
+}
+.skills-container p {
+    font-size: 1.2rem;
+}
+/*......SKILL CODES ENDS HERE......*/
+
+
+/*......PROJECTS CODES START FROM  HERE......*/
+.projects h1{
+    text-align: left;
+    color: black;
+    font-size: 1.2rem;
+    background-color: lightblue;
+    border: 0.5px solid black;
+    border-radius: 10px;
+}
+.projects h2,p{
+    font-size: 1.2rem;
+}
+/*......PROJECTS CODES ENDS HERE......*/
+
+
+/*......ACHIEVEMENTS CODES START FROM  HERE......*/
+.achievements-container h1{
+    text-align: left;
+    color: black;
+    font-size: 1.2rem;
+    background-color: lightblue;
+    border: 0.5px solid black;
+    border-radius: 10px;
+}
+.achievement-heading , h2,p{
+    font-size: 1.2rem;
+}
+.achievement-para, h2,p{
+    font-size: 1.2rem;
+}
+
+/*......ACHIEVEMENTS CODES ENDS HERE......*/
+
+
+/*......PROJECTS CODES START FROM  HERE......*/
+.hobbies-container h1{
+    text-align: left;
+    color: black;
+    font-size: 1.2rem;
+    background-color: lightblue;
+    border: 0.5px solid black;
+    border-radius: 10px;
+}
+.hobbies-container p{
+    font-size: 1.2rem;
+}
+/*......PROJECTS CODES ENDS HERE......*/
+
+/*......FOOTER CODES START FROM  HERE......*/
+.thanks{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.thanks h1{
+    font-size: 1.2rem;
+}
+/*......FOOTER CODES ENDS HERE......*/
+
+
+
+
+
+
+
+
+/* TEXT AND IMAGE MEDIA QUERY STARTS FROM HERE */
+.container2{
+   
+  /* display: block; */
+  height: auto;
+  width: 100%;
+}
+  .intro{
+        padding: 10px;
+        margin: 10% 0px 0px 0px;
+    }
+ .intro  h2{
+        font-size: 1.3rem;
+    }
+
+/* TEXT AND IMAGE MEDIA QUERY ENDS HERE */
+
+
+
+
+/* 2ND MEDIA QUERY */
+@media (max-width:450px){
+        .txt h2{
+            font-size: 1rem;
+        }
+    .container2{
+       height: auto;
+       width: 100%;
+    }
+}  
+    </style>
+</head>
+<body>
+    <div class="nav-container">
+        <div class="logo"><img src="my_casual_pic.jpg" alt=""></div>
+            <div class="nav">
+                <ul>
+                <a href="index.html"><li>Home</li></a>
+                <a href="about.html"><li>About</li></a>
+                <a href="contact.html"><li>Contact </li></a>
+                </ul>
+            </div>
+    </div>
+    <div class="pic"><img src="my_formal_pic.jpg" alt="" height="25%" width="25%"></div>
+    <div class="starting">
+        <!-- <div class="pic"><img src="my_formal_pic.jpg" alt=""></div> -->
+     <h1 class="name">Shubham Sharma</h1>
+     <p class="gmail">shubham2703sharma@gmail.com</p>
+    </div>
+<div class="handles-container">
+   
+    <!-- <h1>Social Media Handles</h1> -->
+    <div class="linkedin">
+        <h1>Linkedin</h1>
+        <p>Shubham Sharma</p>
+    </div>
+    <div class="github">
+        <h1>Github</h1>
+        <p>Shubham-Sharma-27 </p>
+
+    </div>
+    <!-- <div class="github"><h2>Github</h2></div> -->
+  </div>
+  </div><br>
+  <!-- CONTACT CODE ENDS HERE -->
+
+
+   <!-- <div class="container2">
+        <div class="intro"><h2>Hello my name is Shubham Sharma and i am a Programmer</h2></div> -->
+     <!-- <div class="mypic2"><img src="mypic_black_white.jpg" alt="" width="100%" height="100%"></div>  -->
+    </div>
+
+    <!-- CAREER OBJECTIVE CODE START FROM HERE -->
+    <div class="career-objective"><h1>CAREER OBJECTIVE</h1>
+    <p>I am looking for an organization where i can enhance my skillls while contributing to the company's growth . i am excited to take on new challenges and collaborate with a team to achieve meaningful results.<p>
+</div><br>
+   <!-- CAREER OBJECTIVE CODES ENDS HERE -->
+
+  
+  <!-- EDUCATION CODE STARTS FROM HERE -->
+  <div class="education-container"><h1>EDUCATION</h1>
+     <div class="college">
+         <h2>BCA 3RD YEAR       </h2>
+         <p>Rajasthan University</p> 
+        <p>(currently i am pusuing BCA 3rd year)</p>
+         <p>(Aug 2024 - Present)</p>
+     </div><br>
+     <div class="college">
+         <h2>BCA 2ND YEAR ----- (MARKS:77.4%)</h2>
+         <p>Rajasthan University  </p>
+         <p>(Aug 2023 - April 2024)</p>
+     </div><br>
+     <div class="college">
+         <h2>BCA 1ST YEAR-------( MARKS:80.8%)</h2>
+         <p>Rajasthan University</p>
+         <p>(Aug 2022- May 2023 )</p>
+     </div><br>
+     <div class="school">
+        <h2>12TH STANDARD(COMMERCE)-----(MARKS:85%)</h2>
+        <p>Senior Seconadary Education(RBSE)</p>
+         <p>(May 2020 - June 2021 )</p>
+     </div><br>
+     <div class="school">
+        <h2>10TH STANDARD---------(MARKS:64%)</h2>
+        <p>Seconadary Education(RBSE)</p>
+         <p>(April 2018 - April 2019)</p>
+     </div>
+</div><br>
+<!-- EDUCATION CODE END HERE -->
+
+<!-- SKILLS CODE STARTS FROM HERE -->
+<div class="skills-container">
+<h1>SKILLS </h1>
+<p>> java</p>             
+<p>> Html,CSS,JavaScript </p>
+<p>> Python  </p>          
+<p>> Bootstrap </p>                
+<p>> Basics of React js (also currently i'm learning React)</p>
+<p>> C</p>
+<p>> C++  </p> 
+<p>> Basics of Php </p>
+<p>> Basics of Sql / Dbms </p>
+<p>> Basics of DSA through "C"</p>
+</div><br>
+<!-- EDUCATION CODE END HERE -->
+
+<!-- PROJECTS CODE STARTS FROM HERE -->
+<div class="projects">
+    <h1>PROJECTS </h1>
+    <div class="project1">
+       <h2>Basic Restuarant website</h2>
+       <p>Developed a simple, responsive restuarant  website using HTML and CSS for the frontend and Php for backend functionality, improving user experience</p>
+    </div><br>
+    <div class="project2">
+       <h2>Simple responsive, Portfolio website</h2>
+       <p>Designed and Developed a simple , responsive personal Portfolio website using HTML,CSS,showcasing my projects and skills while enhancing online presence</p>
+    </div><br>
+    <div class="project3">
+        <h2>React practice projects</h2>
+        <p>currently Developing small projects using React and Bootstrap, including a Bharat Clock and a Todo App,which showcase my skills in modern web development and responsive design</p>
+     </div>
+</div><br>
+<!-- PROJECTS CODE STARTS FROM HERE -->
+
+<!-- ACHIEVEMENTS CODE STARTS FROM HERE -->
+<div class="achievements-container">
+    <h1>ACHIEVEMENTS</h1>
+    <div class="achievement-1">
+        <h2 class="achievement-heading">Web page Designing and development  Certificate Program (BESIL)</h2>
+        <p class="achievement-para">Participated in the Web page designing and development Certificate Program provided by Broadcast Engineering Consultants India Limited (BESIL) focused on essential skills for creating user-friendly websites</p>
+    </div>
+    <div class="achievement-2"></div>
+        <h2 class="class="achievement-heading">Introduction to Ethical hacking  Certificate (Great learning academy)</h2>
+        <p class="class="achievement-para">Got a certificate for completing a online "introduction to ethical hacking" course provided by Great learning academy(online)</p>
+    </div>
+</div><br>
+<!-- ACHIEVEMENTS CODE END HERE -->
+
+
+<!-- HOBBIES CODE STARTS FROM HERE -->
+<div class="hobbies-container">
+    <h1>HOBBIES</h1>
+    <p>My hobbies include drawing ,traveling , cycling and photography</p>
+</div><br>
+<!-- HOBBIES CODE END HERE -->
+
+
+<!-- FOOTER  CODE STARTS FROM HERE -->
+
+    
+    <div class="thanks"><h1>Thanks for visiting </h1></div>
+</div>
+  <!-- FOOTER CODE ENDS HERE -->
+</body>
+</html>
+
